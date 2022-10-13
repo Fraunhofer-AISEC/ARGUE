@@ -11,6 +11,13 @@ We designed ARGUE as a combination of dedicated expert networks, which specialis
 For its final decision, ARGUE fuses the distributed knowledge across the expert systems using a gated mixture-of-experts architecture.
 Our evaluation motivates that prior knowledge about the normal data distribution may be as valuable as known anomalies.
 
+### Citation
+Anomaly Detection by Recombining Gated Unsupervised Experts was published at IJCNN 2022 [13].
+If you find our work useful, please cite the paper:
+```
+J. -P. Schulze, P. Sperl and K. Böttinger, "Anomaly Detection by Recombining Gated Unsupervised Experts," 2022 International Joint Conference on Neural Networks (IJCNN), 2022, pp. 1-8, doi: 10.1109/IJCNN55064.2022.9892807.
+```
+
 ### Dependencies
 We used ``docker`` during the development.
 You can recreate our environment by:  
@@ -91,3 +98,4 @@ ARGUE
 * [10] https://github.com/chychen/tf2-ganomaly
 * [11] https://github.com/GuansongPang/deviation-network
 * [12] https://github.com/GuansongPang/deep-outlier-detection
+* [13] https://ieeexplore.ieee.org/abstract/document/9892807
